@@ -24,7 +24,7 @@ controls.dampingFactor = 0.05;
 // 4. Načtení 3D modelu a jeho rozmístění
 const loader = new GLTFLoader();
 loader.load(
-  './barevny domecek.glb', // Kostka umístěná vedle index.html
+  './objekt.glb', // Kostka umístěná vedle index.html
   function (gltf) {
     const baseCube = gltf.scene;
     
